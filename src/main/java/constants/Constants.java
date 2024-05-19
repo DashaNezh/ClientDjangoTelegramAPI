@@ -11,13 +11,12 @@ public class Constants {
         public static final By THE_PRICE_OF_THE_ORDER = By.cssSelector("#price");
         public static final By BUTTON_MAKE_AN_ORDER = By.cssSelector("#order-button");
         public static final By CLICK_ON_THE_PROFILE = By.cssSelector("body > div:nth-child(3) > a");
-        public static final By CLICK_ON_THE_DELETE_ORDER_BUTTON = By.cssSelector("body > div > ul > li:nth-child(2) > div > div.order-actions > form > button");
-        public static final By ORDER_SUCCESS_MESSAGE = By.id("order-success-message");
-        public static final By ORDER_DELETE_MESSAGE = By.id("success-message");
+        public static final By CLICK_ON_THE_DELETE_ORDER_BUTTON = By.xpath(".//button[text()='Удалить']");
         public static final By LIST_OF_ORDERS = By.cssSelector(".order");
         public static final By PARSE_THE_FIRST_ORDER = By.cssSelector("body > div > ul > li:nth-child(1)");
         public static final By ORDER_DETAILS = By.className("order-details");
         public static final By CLICK_BACK_BUTTON = By.cssSelector("body > a");
+        public static final By FIND_ORDER_ID = By.xpath(".//strong[contains(text(), 'Номер заказа:')]");
     }
     public static class TimeOutVariable{
         public static final int IMPLICIT_WAIT = 5;

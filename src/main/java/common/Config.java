@@ -13,5 +13,5 @@ public class Config {
      */
     public static final Boolean HOLD_BROWSER_OPEN = true;
 
-    public static final String HOMEPAGE = "https://127.0.0.1:8000/telegram_auth/?token=a6bdd41d5ed04cb399eb29e325ee75fd";
+    public static final String HOMEPAGE = "https://127.0.0.1:8000/telegram_auth/?token=653b5104b4c34110a715cdc81233450a";
 }
